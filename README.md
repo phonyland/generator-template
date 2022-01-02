@@ -7,9 +7,9 @@
 
 <div align="center">
 
-# 🧩<br>Generator Manager
+# 🔹<br>Generator Template
 
-This repository contains the Generator Manager for 🙃 Phony Framework.
+This repository contains the Generator Template for 🙃 Phony Framework.
 
 </div>
 
@@ -20,8 +20,8 @@ This repository contains the Generator Manager for 🙃 Phony Framework.
 Start generating fake data with 🙃 Phony Framework,  
 visit the main **[Phony Repository](https://github.com/phonyland/framework)**.
 
-Explore the docs: **[phony.land »](https://phony.land/)**  
-Follow us on Twitter: **[@phony_land »](https://twitter.com/phony_land)**
+Explore the docs » **[https://phony.land](https://phony.land/)**  
+Follow us on Twitter » **[@phony_land](https://twitter.com/phony_land)**
 
 **[🙃 Phony<br/>Fake Data Generation Framework](https://phony.land)**  
 was created by  
