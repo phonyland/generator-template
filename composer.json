@@ -2,7 +2,7 @@
     "name": "phonyland/generator-template",
     "description": "\ud83d\udd39 Generator Template for \ud83d\ude43 Phony Framework",
     "license": "MIT",
-    "type": "library",
+    "type": "phony-generator",
     "keywords": [
         "php",
         "framework",
@@ -37,7 +37,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Phonyland\\ExampleGenerator\\Tests\\": "tests"
+            "Phonyland\\SampleGenerator\\Tests\\": "tests"
         }
     },
     "config": {
@@ -54,7 +54,7 @@
     "extra": {
         "phonyland": {
             "generators": [
-                "Phonyland\\ExampleGenerator\\Generator"
+                "Phonyland\\SampleGenerator\\ExampleGenerator"
             ]
         }
     },
