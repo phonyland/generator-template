@@ -9,8 +9,8 @@ class ExampleGenerator
     /**
      * @throws \Exception
      */
-    public function exampleOne(): string
+    public function text(): string
     {
-        return 'example-one-' . random_int(1, 9999);
+        return 'example-text-'.random_int(1, 9999);
     }
 }

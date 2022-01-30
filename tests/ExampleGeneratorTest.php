@@ -7,8 +7,8 @@ test('sample text', function (): void {
     $phony = new Phony();
 
     // Act
-    $data = $phony->sample->text;
+    $data = $phony->example->text();
 
     // Assert
-    expect($data)->toContain('sample-text-');
+    expect($data)->toContain('example-text-');
 });
