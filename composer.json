@@ -32,12 +32,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Phonyland\\SampleGenerator\\": "src/"
+            "Phonyland\\ExampleGenerator\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Phonyland\\SampleGenerator\\Tests\\": "tests"
+            "Phonyland\\ExampleGenerator\\Tests\\": "tests"
         }
     },
     "config": {
@@ -54,7 +54,7 @@
     "extra": {
         "phonyland": {
             "generators": [
-                "Phonyland\\SampleGenerator\\ExampleGenerator"
+                "Phonyland\\ExampleGenerator\\ExampleGenerator"
             ]
         }
     },

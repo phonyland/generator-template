@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Phonyland\SampleGenerator;
+namespace Phonyland\ExampleGenerator;
 
 use Phonyland\GeneratorManager\Generator;
 
