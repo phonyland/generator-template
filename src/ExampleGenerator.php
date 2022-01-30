@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Phonyland\SampleGenerator;
 
-class ExampleGenerator
+use Phonyland\GeneratorManager\Generator;
+
+class ExampleGenerator extends Generator
 {
     /**
      * @throws \Exception

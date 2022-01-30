@@ -2,7 +2,7 @@
 
 use Phonyland\Framework\Phony;
 
-test('sample text', function (): void {
+test('example text', function (): void {
     // Arrange
     $phony = new Phony();
 
