@@ -53,9 +53,10 @@
     },
     "extra": {
         "phonyland": {
-            "generators": [
-                "Phonyland\\ExampleGenerator\\ExampleGenerator"
-            ]
+            "generator": {
+                "alias": "example",
+                "class": "Phonyland\\ExampleGenerator\\ExampleGenerator"
+            }
         }
     },
     "scripts": {
