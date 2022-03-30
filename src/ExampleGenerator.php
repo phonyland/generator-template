@@ -10,6 +10,6 @@ class ExampleGenerator extends Generator
 {
     public function text(): string
     {
-        return 'example-text-'.random_int(1, 9999);
+        return 'example-text-' . random_int(1, 9999);
     }
 }
