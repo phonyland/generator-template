@@ -11,6 +11,11 @@ class ExampleGenerator extends Generator
     protected array $attributes = [
         'exampleAttribute' => 'example.text'
     ];
+
+    protected array $attributeAliases = [
+        'exampleAttributeAlias' => 'exampleAttribute'
+    ];
+
     protected array $methodsAsAttributes = [
         'exampleMethod' => [],
     ];

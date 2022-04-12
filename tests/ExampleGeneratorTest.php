@@ -21,3 +21,8 @@ test('example->exampleAttribute')
     ->expect(🙃()->example->exampleAttribute)
     ->toBeAWord()
     ->toContain('text-');
+
+test('example->exampleAttributeAlias')
+    ->expect(🙃()->example->exampleAttributeAlias)
+    ->toBeAWord()
+    ->toContain('text-');
