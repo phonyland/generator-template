@@ -11,6 +11,11 @@ class ExampleGenerator extends Generator
     protected array $methodsAsAttributes = [
         'exampleMethod' => [],
     ];
+
+    protected array $methodAliases = [
+        'exampleMethodAlias' => 'exampleMethod'
+    ];
+
     public function exampleMethod(): string
     {
         return 'example-text-' . random_int(1, 9999);
