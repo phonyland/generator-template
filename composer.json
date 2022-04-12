@@ -26,6 +26,7 @@
         "phonyland/generator-manager": "dev-master"
     },
     "require-dev": {
+        "phonyland-data/generator-data-template": "dev-master",
         "phonyland/dev-tools": "dev-master"
     },
     "minimum-stability": "dev",
