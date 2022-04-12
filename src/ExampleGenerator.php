@@ -8,7 +8,7 @@ use Phonyland\Framework\Generator;
 
 class ExampleGenerator extends Generator
 {
-    public function text(): string
+    public function exampleMethod(): string
     {
         return 'example-text-' . random_int(1, 9999);
     }
