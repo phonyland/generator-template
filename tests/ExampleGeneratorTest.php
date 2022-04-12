@@ -16,3 +16,8 @@ test('example->exampleMethod as alias')
     ->expect(🙃()->example->exampleMethod)
     ->toBeAWord()
     ->toContain('example-text-');
+
+test('example->exampleAttribute')
+    ->expect(🙃()->example->exampleAttribute)
+    ->toBeAWord()
+    ->toContain('text-');

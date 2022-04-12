@@ -8,6 +8,9 @@ use Phonyland\Framework\Generator;
 
 class ExampleGenerator extends Generator
 {
+    protected array $attributes = [
+        'exampleAttribute' => 'example.text'
+    ];
     protected array $methodsAsAttributes = [
         'exampleMethod' => [],
     ];
