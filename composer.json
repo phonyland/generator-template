@@ -57,7 +57,7 @@
                 "alias": "example",
                 "class": "Phonyland\\ExampleGenerator\\ExampleGenerator",
                 "data": {
-                    "en": "phonyland/generator-data-template"
+                    "en": "phonyland-data/generator-data-template"
                 }
             }
         }
